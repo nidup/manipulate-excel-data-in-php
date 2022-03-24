@@ -1,6 +1,6 @@
 # Manipulate Excel Files in PHP 🐘
 
-Code examples for the tutorial for the tutorial [How to Read and Write Excel Files in PHP](https://www.nidup.io/blog/manipulate-excel-files-in-php)
+Code examples for the tutorial [How to Read and Write Excel Files in PHP](https://www.nidup.io/blog/manipulate-excel-files-in-php).
 
 The code is packaged as a simple Symfony application with cli commands.
 
@@ -42,16 +42,17 @@ List the commands:
 ```
 bin/console --env=prod
 [...]
-nidup:excel-league:read-big-excel-file        Read a big excel file and measure time and memory (with box/spout)
-nidup:excel-spout:generate-big-excel-file     Generate a 1M lines excel file (with box/spout)
-nidup:excel-spout:read-excel-file             Read an excel file (with box/spout)
-nidup:excel-spout:write-excel-file            Write an excel file (with box/spout)
+nidup
+  nidup:excel:generate-big-file  Generate a 1M lines excel file (with box/spout)
+  nidup:excel:read-big-file      Read a big excel file and measure time and memory (with box/spout)
+  nidup:excel:read-file          Read an excel file (with box/spout)
+  nidup:excel:write-file         Write an excel file (with box/spout)
 [...]
 ```
 
 Launch a command:
 ```
-bin/console nidup:excel-spout:read-excel-file --env=prod
+bin/console idup:excel:read-file --env=prod
 ```
 
 We use the prod environment here to have the most efficient execution.

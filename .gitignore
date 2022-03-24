@@ -10,3 +10,6 @@
 ###< symfony/framework-bundle ###
 
 .idea
+.php_cs.cache
+data/new-file.xlsx
+data/movies-1000000.xlsx

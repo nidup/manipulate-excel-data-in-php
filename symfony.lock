@@ -1,4 +1,7 @@
 {
+    "box/spout": {
+        "version": "v3.3.0"
+    },
     "psr/cache": {
         "version": "3.0.0"
     },
@@ -123,6 +126,9 @@
     },
     "symfony/service-contracts": {
         "version": "v3.0.0"
+    },
+    "symfony/stopwatch": {
+        "version": "v6.0.5"
     },
     "symfony/string": {
         "version": "v6.0.3"
