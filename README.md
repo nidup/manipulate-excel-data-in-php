@@ -52,7 +52,7 @@ nidup
 
 Launch a command:
 ```
-bin/console idup:excel:read-file --env=prod
+bin/console nidup:excel:read-file --env=prod
 ```
 
 We use the prod environment here to have the most efficient execution.
